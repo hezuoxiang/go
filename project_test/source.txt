@@ -1,0 +1,5 @@
+#!/bin/sh
+
+filepath=$(pwd)
+echo $filepath
+export GOPATH=$filepath
